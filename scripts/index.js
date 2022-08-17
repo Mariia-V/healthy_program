@@ -1,4 +1,4 @@
-import SignInModal from "./classes/SignInModal.js";
+import SignInModal from "./classes/signInModal.js";
 import loginAndShowCards from "./api/loginAndShowCards.js";
 import signOutBttnHandler from "./functions/signOutBttnHandler.js";
 import getCards from "./api/getCards.js";
@@ -6,7 +6,7 @@ import showCards from "./functions/showCards.js";
 import showHideTxtAndBttns from "./utils/showHideTxtAndBttns.js";
 import cardsFilter from "./functions/cardsFilter.js";
 import resetFilter from "./functions/resetFilters.js";
-import AddCardModal from "./classes/AddCardModal.js";
+import AddCardModal from "./classes/addCardModal.js";
 import addCardHandler from "./api/addCardHandler.js";
 import formValidity from "./utils/formValidity.js";
 import showHideFilter from "./functions/showHideFilter.js";
